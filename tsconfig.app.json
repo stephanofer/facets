@@ -15,6 +15,13 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 
+		/* Path aliases */
+		"baseUrl": ".",
+		"paths": {
+			"@/ui/*": ["ui/*"],
+			"@/api/*": ["api/*"]
+		},
+
 		/* Linting */
 		"strict": true,
 		"noUnusedLocals": true,
@@ -22,5 +29,5 @@
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedSideEffectImports": true
 	},
-	"include": ["src/react-app"]
+	"include": ["ui"]
 }
